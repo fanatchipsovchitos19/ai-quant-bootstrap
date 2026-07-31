@@ -797,3 +797,9 @@ timestamp,bot_name,action,symbol,price,quantity,amount_usdt,pnl,pnl_percent,reas
 2026-07-31T14:08:07.353240,ArbitrageScanner,SIGNAL,ZRX/USDT,0.077750,0.000000,0.00,0.00,0.00,Buy okx Sell binance Spread 0.450%
 2026-07-31T14:08:07.354240,ArbitrageScanner,SIGNAL,GRT/USDT,0.014400,0.000000,0.00,0.00,0.00,Buy binance Sell okx Spread 0.417%
 2026-07-31T14:08:07.355242,ArbitrageScanner,SIGNAL,ENJ/USDT,0.024870,0.000000,0.00,0.00,0.00,Buy bybit Sell okx Spread 0.362%
+2026-07-31T14:09:19.820516,ArbitrageScanner,SIGNAL,ZRX/USDT,0.077750,0.000000,0.00,0.00,0.00,Buy okx Sell binance Spread 0.450%
+2026-07-31T14:09:19.822517,ArbitrageScanner,SIGNAL,ENJ/USDT,0.024870,0.000000,0.00,0.00,0.00,Buy bybit Sell okx Spread 0.281%
+2026-07-31T14:09:19.823518,ArbitrageScanner,SIGNAL,GRT/USDT,0.014410,0.000000,0.00,0.00,0.00,Buy binance Sell okx Spread 0.278%
+2026-07-31T14:10:34.909788,ArbitrageScanner,SIGNAL,ZRX/USDT,0.077750,0.000000,0.00,0.00,0.00,Buy okx Sell binance Spread 0.450%
+2026-07-31T14:10:34.911791,ArbitrageScanner,SIGNAL,BAT/USDT,0.065060,0.000000,0.00,0.00,0.00,Buy bybit Sell binance Spread 0.369%
+2026-07-31T14:10:34.912792,ArbitrageScanner,SIGNAL,COMP/USDT,16.570000,0.000000,0.00,0.00,0.00,Buy binance Sell bybit Spread 0.302%
