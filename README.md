@@ -10,26 +10,6 @@
 - 🧠 **Grid ML** — Grid trading with ML-based range prediction
 - 🎯 **DEX Sniper** — Snipes new pairs on PancakeSwap, AI filters scams
 
-## Quick Start
+## Contact
 
-```bash
-pip install -r requirements.txt
-python launcher.py
-API Keys Needed (optional — bots work in paper trade mode)
-Binance/Bybit — for real trading
-
-Twitter API — for Sentiment Sniper (free tier: 1,500 tweets/month)
-
-RouterAI — for AI analysis (or use local Ollama for free)
-
-Telegram — for notifications
-
-AI Providers
-RouterAI — Sentiment analysis & news checking (DeepSeek, GPT-4o-mini)
-
-Ollama — Local AI for scam detection (free, runs on your PC)
-
-Requirements
-Python 3.10+
-
-Windows/Mac/Linux
+Telegram: @SuperAlexey8
