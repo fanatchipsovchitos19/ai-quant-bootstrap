@@ -1,0 +1,219 @@
+# ============================================
+# AI QUANT BOOTSTRAP — КОНФИГУРАЦИЯ
+# ============================================
+# ВАЖНО: Меняйте только значения после двоеточия.
+# Не меняйте структуру (отступы, названия ключей).
+# Комментарии подсказывают, что делает каждый параметр.
+# ============================================
+
+# --- API Ключи ---
+api_keys:
+  # Binance API. Создать: https://www.binance.com/ru/my/settings/api-management
+  # Права: "Enable Spot & Margin Trading" (для спотовых ботов)
+  binance:
+    api_key: "ВАШ_BINANCE_API_KEY"
+    api_secret: "ВАШ_BINANCE_SECRET_KEY"
+    testnet: true  # true = тестовая сеть (песочница, тренировка)
+                   # false = реальная биржа (настоящие деньги)
+
+  # Bybit API. Создать: https://www.bybit.com/app/user/api-management
+  bybit:
+    api_key: "ВАШ_BYBIT_API_KEY"
+    api_secret: "ВАШ_BYBIT_SECRET_KEY"
+
+  # OKX API. Создать: https://www.okx.com/account/my-api
+  okx:
+    api_key: "ВАШ_OKX_API_KEY"
+    api_secret: "ВАШ_OKX_SECRET_KEY"
+
+  # OpenAI API (ChatGPT). Получить: https://platform.openai.com/api-keys
+  # Пополните баланс на $5 — хватит на месяц торговли.
+  openai:
+    api_key: "sk-ВАШ_OPENAI_API_KEY"
+    model: "gpt-4o-mini"  # gpt-4o-mini — дешёвый и быстрый
+                           # gpt-4o — точнее, но в 10 раз дороже
+
+  # RouterAI API. Получить: https://routerai.ru
+  routerai:
+    api_key: "sk-6VPzFy-ey7oxnlFRf7r2jbTyZ-RiS9lj"
+    url: "https://routerai.ru/api/v1"
+    model_complex: "deepseek/deepseek-chat"  # для анализа тональности, новостей
+    model_fast: "openai/gpt-4o-mini"         # для быстрых проверок
+
+  # Ollama — локальный AI. Скачать: https://ollama.com
+  ollama:
+    enabled: true
+    url: "http://localhost:11434"
+    model: "llama3.2:1b"
+
+  # Twitter API v2. Получить: https://developer.twitter.com/en/portal/dashboard
+  # Бесплатный тир: 1500 твитов/мес (хватит для мониторинга 50 аккаунтов)
+  twitter:
+    bearer_token: "AAAAAAAAAAAAAAAAAAAAAKYP%2BwEAAAAAjYgs2qGePKV4KRMcZDFzWl7N5zg%3DCLUoDl7NyjQI4hPFDpkv8idZ19hyqWxypUYPmIQY46NsQvEXtZ"
+
+  # Telegram Bot. Создать через @BotFather в Telegram
+  telegram:
+    bot_token: "ВАШ_TELEGRAM_BOT_TOKEN"
+    chat_id: "ВАШ_CHAT_ID"  # Ваш ID в Telegram. Узнать через @userinfobot
+
+# --- Общие настройки ---
+general:
+  # Основная биржа для торговли (binance, bybit, okx)
+  primary_exchange: "binance"
+  
+  # Базовая валюта для расчёта размеров позиций
+  quote_currency: "USDT"
+  
+  # Максимальное количество одновременно открытых позиций
+  max_positions: 3
+  
+  # Размер позиции по умолчанию (в USDT)
+  default_position_size: 100
+  
+  # Допустимое проскальзывание (в процентах, 0.5 = 0.5%)
+  slippage_percent: 0.5
+  
+  # Интервал проверки (в секундах) для ботов-сканеров
+  scan_interval_seconds: 30
+  
+  # Уровень логирования: DEBUG, INFO, WARNING, ERROR
+  log_level: "INFO"
+
+# --- Бот 1: AI-Сентимент Снайпер ---
+bot_sentiment:
+  enabled: true  # true = бот работает, false = выключен
+  
+  # Токены для торговли. Бот ищет упоминания этих тикеров в твитах.
+  monitored_tokens:
+    - "BTC"
+    - "ETH"
+    - "DOGE"
+    - "SOL"
+    - "PEPE"
+  
+  # Twitter-аккаунты для мониторинга. Добавляйте кого хотите.
+  monitored_accounts:
+    - "elonmusk"
+    - "cz_binance"
+    - "VitalikButerin"
+    - "SBF_FTX"
+    - "cobie"
+  
+  # Порог позитивности: если тональность твита > 0.8, входим в сделку
+  sentiment_threshold: 0.8
+  
+  # Длительность сделки (в минутах). По истечении — принудительный выход.
+  trade_duration_minutes: 15
+  
+  # Тейк-профит (в процентах от входа)
+  take_profit_percent: 5.0
+  
+  # Стоп-лосс (в процентах от входа)
+  stop_loss_percent: 3.0
+
+# --- Бот 2: Арбитражный Сканер ---
+bot_arbitrage:
+  enabled: true
+  
+  # Биржи для сканирования
+  exchanges:
+    - "binance"
+    - "bybit"
+    - "okx"
+  
+  # Торговые пары для мониторинга. common — автоматически найти общие пары.
+  symbols_mode: "common"  # "common" или список: ["BTC/USDT", "ETH/USDT"]
+  
+  # Минимальный спред (в процентах), при котором отправляем сигнал
+  min_spread_percent: 0.05
+  
+  # Автоматически исполнять арбитраж? true = авто-торговля, false = только сигналы
+  auto_execute: false
+  
+  # Максимальная сумма на один арбитраж (в USDT)
+  max_trade_amount: 500
+
+# --- Бот 3: DCA с AI-коррекцией ---
+bot_dca:
+  enabled: true
+  
+  # Токен для усреднения
+  symbol: "BTC/USDT"
+  
+  # Размер одной докупки (в USDT)
+  order_amount: 50
+  
+  # Интервал между докупками (в часах)
+  interval_hours: 1
+  
+  # Проверять новости через AI перед каждой докупкой
+  ai_news_check: true
+  
+  # Максимальное количество докупок (защита от бесконечного усреднения)
+  max_dca_orders: 3
+  
+  # Приостановить DCA, если цена упала на X% от первой покупки
+  max_drawdown_percent: 30
+
+# --- Бот 4: Grid-бот с ML ---
+bot_grid:
+  enabled: true
+  
+  # Торговая пара
+  symbol: "ETH/USDT"
+  
+  # Количество уровней сетки (ордеров на покупку и продажу)
+  grid_levels: 10
+  
+  # Расстояние между уровнями (в процентах от цены)
+  grid_spacing_percent: 1.0
+  
+  # Размер одного ордера (в USDT)
+  order_amount: 50
+  
+  # Дней истории для ML-предсказания волатильности
+  ml_lookback_days: 7
+  
+  # Пересчитывать сетку каждые N часов
+  recalculate_hours: 24
+  
+  # Минимальный баланс для работы сетки
+  min_balance_usdt: 100
+
+# --- Бот 5: Снайпер листингов на DEX ---
+bot_dex_sniper:
+  enabled: true  # По умолчанию выключен. Включайте осторожно.
+  
+  # Блокчейн: "ethereum", "bsc", "polygon"
+  chain: "bsc"
+  
+  # RPC-эндпоинт. Бесплатные:
+  # BSC: https://bsc-dataseed.binance.org
+  # Ethereum: https://eth.llamarpc.com
+  rpc_url: "https://bsc-dataseed.binance.org"
+  
+  # Адрес фабрики DEX:
+  # PancakeSwap (BSC): 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
+  # Uniswap V2 (ETH): 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f
+  factory_address: "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"
+  
+  # Сумма на один снайп (в нативной монете: BNB, ETH, MATIC)
+  buy_amount_native: 0.05
+  
+  # Газ: "auto" — пусть бот считает, или укажите вручную в gwei
+  gas_mode: "auto"
+  
+  # Тейк-профит (в процентах). Сразу после покупки ставим ордер на продажу.
+  take_profit_percent: 20.0
+  
+  # Фильтровать скамы через AI
+  ai_scam_filter: true
+  
+  # Минимальная ликвидность пары (в USD)
+  min_liquidity_usd: 5000
+
+# --- Уведомления ---
+notifications:
+  # Куда шлём сигналы
+  telegram: true    # В Telegram-бота
+  console: true     # В терминал

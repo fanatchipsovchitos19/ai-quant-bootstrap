@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Конфиденциальные данные
+config.yaml
+
+# Данные
+data/
+*.log
+
+# Видео
+video_guide/

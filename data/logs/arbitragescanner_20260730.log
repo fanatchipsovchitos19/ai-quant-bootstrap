@@ -1,0 +1,721 @@
+2026-07-30 13:16:52 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:16:54 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:16:55 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:16:55 ERROR    | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:16:55 ERROR    | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:16:57 INFO     | ArbitrageScanner     | Common symbols: 0 USDT pairs across 3 exchanges
+2026-07-30 13:16:57 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:19:52 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:19:53 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:19:54 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:19:54 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:19:54 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:19:54 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:19:54 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:19:55 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:19:55 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:19:57 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:19:57 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:19:57 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:22:21 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:22:21 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:22:21 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:22:21 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:22:22 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:22:22 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:22:22 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:22:23 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:22:23 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:22:23 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:22:23 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:22:23 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:22:24 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:22:24 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:22:26 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:22:26 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:22:26 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:23:58 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:23:58 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:23:58 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:23:58 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:23:59 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:23:59 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:23:59 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:24:00 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:24:00 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:24:00 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:24:00 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:24:00 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:24:01 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:24:01 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:24:03 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:24:03 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:24:03 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:24:17 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:24:17 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:24:17 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:24:17 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:24:18 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:24:18 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:24:18 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:24:19 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:24:19 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:24:19 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:24:19 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:24:19 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:24:20 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:24:20 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:24:22 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:24:22 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:24:22 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:27:11 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:27:12 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:27:12 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:27:12 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:27:13 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:27:13 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:27:13 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:27:14 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:27:14 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:27:14 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:27:14 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:27:14 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:27:15 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:27:15 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:27:17 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:27:17 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:27:17 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:30:20 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:30:20 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:30:20 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:30:20 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:30:21 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:30:21 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:30:21 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:30:22 INFO     | ArbitrageScanner     | Loading markets... This may take a moment.
+2026-07-30 13:30:22 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:30:22 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:30:22 WARNING  | ArbitrageScanner     | BINANCE: 0 markets loaded — skipping
+2026-07-30 13:30:22 WARNING  | ArbitrageScanner     | load_markets() failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256). Retrying with reload...
+2026-07-30 13:30:23 ERROR    | ArbitrageScanner     | load_markets() retry failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:30:23 WARNING  | ArbitrageScanner     | BYBIT: 0 markets loaded — skipping
+2026-07-30 13:30:25 INFO     | ArbitrageScanner     | OKX: 4144 markets loaded
+2026-07-30 13:30:25 ERROR    | ArbitrageScanner     | Only 1 exchanges loaded markets. Need at least 2.
+2026-07-30 13:30:25 ERROR    | ArbitrageScanner     | No common symbols found! Check exchange connections.
+2026-07-30 13:31:17 INFO     | ArbitrageScanner     | Exchange client created: BINANCE (LIVE TRADING)
+2026-07-30 13:31:17 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:31:17 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:31:17 INFO     | ArbitrageScanner     | Exchange client created: BYBIT (LIVE TRADING)
+2026-07-30 13:31:18 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:31:18 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:31:18 INFO     | ArbitrageScanner     | Exchange client created: OKX (LIVE TRADING)
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     |    Pairs: 50
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:31:19 INFO     | ArbitrageScanner     | Scan #1 | Pairs: 50 | Found: 0
+2026-07-30 13:31:19 ERROR    | ArbitrageScanner     | fetch_ticker(BTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:19 ERROR    | ArbitrageScanner     | fetch_ticker(BTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:21 ERROR    | ArbitrageScanner     | fetch_ticker(ETH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:22 ERROR    | ArbitrageScanner     | fetch_ticker(ETH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:22 ERROR    | ArbitrageScanner     | fetch_ticker(BNB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:23 ERROR    | ArbitrageScanner     | fetch_ticker(BNB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:23 ERROR    | ArbitrageScanner     | fetch_ticker(SOL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:24 ERROR    | ArbitrageScanner     | fetch_ticker(SOL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:24 ERROR    | ArbitrageScanner     | fetch_ticker(XRP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:25 ERROR    | ArbitrageScanner     | fetch_ticker(XRP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:26 ERROR    | ArbitrageScanner     | fetch_ticker(ADA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:26 ERROR    | ArbitrageScanner     | fetch_ticker(ADA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:27 ERROR    | ArbitrageScanner     | fetch_ticker(DOGE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:27 ERROR    | ArbitrageScanner     | fetch_ticker(DOGE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:28 ERROR    | ArbitrageScanner     | fetch_ticker(AVAX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:28 ERROR    | ArbitrageScanner     | fetch_ticker(AVAX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:29 ERROR    | ArbitrageScanner     | fetch_ticker(DOT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:29 ERROR    | ArbitrageScanner     | fetch_ticker(DOT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:30 ERROR    | ArbitrageScanner     | fetch_ticker(LINK/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:30 ERROR    | ArbitrageScanner     | fetch_ticker(LINK/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:31 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:31 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:31 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: okx does not have market symbol MATIC/USDT
+2026-07-30 13:31:32 ERROR    | ArbitrageScanner     | fetch_ticker(UNI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:32 ERROR    | ArbitrageScanner     | fetch_ticker(UNI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:33 ERROR    | ArbitrageScanner     | fetch_ticker(SHIB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:33 ERROR    | ArbitrageScanner     | fetch_ticker(SHIB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:34 ERROR    | ArbitrageScanner     | fetch_ticker(LTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:34 ERROR    | ArbitrageScanner     | fetch_ticker(LTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:35 ERROR    | ArbitrageScanner     | fetch_ticker(ATOM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:35 ERROR    | ArbitrageScanner     | fetch_ticker(ATOM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:36 ERROR    | ArbitrageScanner     | fetch_ticker(ETC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:36 ERROR    | ArbitrageScanner     | fetch_ticker(ETC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:37 ERROR    | ArbitrageScanner     | fetch_ticker(XLM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:37 ERROR    | ArbitrageScanner     | fetch_ticker(XLM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:38 ERROR    | ArbitrageScanner     | fetch_ticker(FIL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:38 ERROR    | ArbitrageScanner     | fetch_ticker(FIL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:39 ERROR    | ArbitrageScanner     | fetch_ticker(TRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:39 ERROR    | ArbitrageScanner     | fetch_ticker(TRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:40 ERROR    | ArbitrageScanner     | fetch_ticker(NEAR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:41 ERROR    | ArbitrageScanner     | fetch_ticker(NEAR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:41 ERROR    | ArbitrageScanner     | fetch_ticker(APT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:42 ERROR    | ArbitrageScanner     | fetch_ticker(APT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:42 ERROR    | ArbitrageScanner     | fetch_ticker(ARB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:43 ERROR    | ArbitrageScanner     | fetch_ticker(ARB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:43 ERROR    | ArbitrageScanner     | fetch_ticker(OP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:44 ERROR    | ArbitrageScanner     | fetch_ticker(OP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:44 ERROR    | ArbitrageScanner     | fetch_ticker(SUI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:45 ERROR    | ArbitrageScanner     | fetch_ticker(SUI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:45 ERROR    | ArbitrageScanner     | fetch_ticker(PEPE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:46 ERROR    | ArbitrageScanner     | fetch_ticker(PEPE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:47 ERROR    | ArbitrageScanner     | fetch_ticker(INJ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:47 ERROR    | ArbitrageScanner     | fetch_ticker(INJ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:48 ERROR    | ArbitrageScanner     | fetch_ticker(TIA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:48 ERROR    | ArbitrageScanner     | fetch_ticker(TIA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:49 ERROR    | ArbitrageScanner     | fetch_ticker(SEI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:49 ERROR    | ArbitrageScanner     | fetch_ticker(SEI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:50 ERROR    | ArbitrageScanner     | fetch_ticker(WLD/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:50 ERROR    | ArbitrageScanner     | fetch_ticker(WLD/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:51 ERROR    | ArbitrageScanner     | fetch_ticker(RNDR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:51 ERROR    | ArbitrageScanner     | fetch_ticker(RNDR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:51 ERROR    | ArbitrageScanner     | fetch_ticker(RNDR/USDT) failed: okx does not have market symbol RNDR/USDT
+2026-07-30 13:31:52 ERROR    | ArbitrageScanner     | fetch_ticker(FET/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:52 ERROR    | ArbitrageScanner     | fetch_ticker(FET/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:53 ERROR    | ArbitrageScanner     | fetch_ticker(AGIX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:53 ERROR    | ArbitrageScanner     | fetch_ticker(AGIX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:53 ERROR    | ArbitrageScanner     | fetch_ticker(AGIX/USDT) failed: okx does not have market symbol AGIX/USDT
+2026-07-30 13:31:54 ERROR    | ArbitrageScanner     | fetch_ticker(OCEAN/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:54 ERROR    | ArbitrageScanner     | fetch_ticker(OCEAN/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:54 ERROR    | ArbitrageScanner     | fetch_ticker(OCEAN/USDT) failed: okx does not have market symbol OCEAN/USDT
+2026-07-30 13:31:54 ERROR    | ArbitrageScanner     | fetch_ticker(GRT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:55 ERROR    | ArbitrageScanner     | fetch_ticker(GRT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:55 ERROR    | ArbitrageScanner     | fetch_ticker(AAVE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:56 ERROR    | ArbitrageScanner     | fetch_ticker(AAVE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:57 ERROR    | ArbitrageScanner     | fetch_ticker(ALGO/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:57 ERROR    | ArbitrageScanner     | fetch_ticker(ALGO/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:58 ERROR    | ArbitrageScanner     | fetch_ticker(SAND/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:58 ERROR    | ArbitrageScanner     | fetch_ticker(SAND/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:59 ERROR    | ArbitrageScanner     | fetch_ticker(MANA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:31:59 ERROR    | ArbitrageScanner     | fetch_ticker(MANA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:00 ERROR    | ArbitrageScanner     | fetch_ticker(AXS/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:00 ERROR    | ArbitrageScanner     | fetch_ticker(AXS/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:01 ERROR    | ArbitrageScanner     | fetch_ticker(CRV/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:01 ERROR    | ArbitrageScanner     | fetch_ticker(CRV/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:02 ERROR    | ArbitrageScanner     | fetch_ticker(COMP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:02 ERROR    | ArbitrageScanner     | fetch_ticker(COMP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:03 ERROR    | ArbitrageScanner     | fetch_ticker(SNX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:03 ERROR    | ArbitrageScanner     | fetch_ticker(SNX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:04 ERROR    | ArbitrageScanner     | fetch_ticker(YFI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:04 ERROR    | ArbitrageScanner     | fetch_ticker(YFI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:05 ERROR    | ArbitrageScanner     | fetch_ticker(MKR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:06 ERROR    | ArbitrageScanner     | fetch_ticker(MKR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:06 ERROR    | ArbitrageScanner     | fetch_ticker(MKR/USDT) failed: okx does not have market symbol MKR/USDT
+2026-07-30 13:32:06 ERROR    | ArbitrageScanner     | fetch_ticker(1INCH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:06 ERROR    | ArbitrageScanner     | fetch_ticker(1INCH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:07 ERROR    | ArbitrageScanner     | fetch_ticker(ZRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:08 ERROR    | ArbitrageScanner     | fetch_ticker(ZRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:08 ERROR    | ArbitrageScanner     | fetch_ticker(BAT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:09 ERROR    | ArbitrageScanner     | fetch_ticker(BAT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:09 ERROR    | ArbitrageScanner     | fetch_ticker(ENJ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:10 ERROR    | ArbitrageScanner     | fetch_ticker(ENJ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:10 ERROR    | ArbitrageScanner     | fetch_ticker(CHZ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:11 ERROR    | ArbitrageScanner     | fetch_ticker(CHZ/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:11 ERROR    | ArbitrageScanner     | fetch_ticker(LDO/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:12 ERROR    | ArbitrageScanner     | fetch_ticker(LDO/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:43 ERROR    | ArbitrageScanner     | fetch_ticker(BTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:43 ERROR    | ArbitrageScanner     | fetch_ticker(BTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:44 ERROR    | ArbitrageScanner     | fetch_ticker(ETH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:44 ERROR    | ArbitrageScanner     | fetch_ticker(ETH/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:45 ERROR    | ArbitrageScanner     | fetch_ticker(BNB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:45 ERROR    | ArbitrageScanner     | fetch_ticker(BNB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:46 ERROR    | ArbitrageScanner     | fetch_ticker(SOL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:46 ERROR    | ArbitrageScanner     | fetch_ticker(SOL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:47 ERROR    | ArbitrageScanner     | fetch_ticker(XRP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:47 ERROR    | ArbitrageScanner     | fetch_ticker(XRP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:48 ERROR    | ArbitrageScanner     | fetch_ticker(ADA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:49 ERROR    | ArbitrageScanner     | fetch_ticker(ADA/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:49 ERROR    | ArbitrageScanner     | fetch_ticker(DOGE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:50 ERROR    | ArbitrageScanner     | fetch_ticker(DOGE/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:50 ERROR    | ArbitrageScanner     | fetch_ticker(AVAX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:51 ERROR    | ArbitrageScanner     | fetch_ticker(AVAX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:51 ERROR    | ArbitrageScanner     | fetch_ticker(DOT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:52 ERROR    | ArbitrageScanner     | fetch_ticker(DOT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:53 ERROR    | ArbitrageScanner     | fetch_ticker(LINK/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:53 ERROR    | ArbitrageScanner     | fetch_ticker(LINK/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:54 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:54 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:54 ERROR    | ArbitrageScanner     | fetch_ticker(MATIC/USDT) failed: okx does not have market symbol MATIC/USDT
+2026-07-30 13:32:55 ERROR    | ArbitrageScanner     | fetch_ticker(UNI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:55 ERROR    | ArbitrageScanner     | fetch_ticker(UNI/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:56 ERROR    | ArbitrageScanner     | fetch_ticker(SHIB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:56 ERROR    | ArbitrageScanner     | fetch_ticker(SHIB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:57 ERROR    | ArbitrageScanner     | fetch_ticker(LTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:57 ERROR    | ArbitrageScanner     | fetch_ticker(LTC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:58 ERROR    | ArbitrageScanner     | fetch_ticker(ATOM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:58 ERROR    | ArbitrageScanner     | fetch_ticker(ATOM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:32:59 ERROR    | ArbitrageScanner     | fetch_ticker(ETC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:00 ERROR    | ArbitrageScanner     | fetch_ticker(ETC/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:00 ERROR    | ArbitrageScanner     | fetch_ticker(XLM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:01 ERROR    | ArbitrageScanner     | fetch_ticker(XLM/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:01 ERROR    | ArbitrageScanner     | fetch_ticker(FIL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:02 ERROR    | ArbitrageScanner     | fetch_ticker(FIL/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:02 ERROR    | ArbitrageScanner     | fetch_ticker(TRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:03 ERROR    | ArbitrageScanner     | fetch_ticker(TRX/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:03 ERROR    | ArbitrageScanner     | fetch_ticker(NEAR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:04 ERROR    | ArbitrageScanner     | fetch_ticker(NEAR/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:04 ERROR    | ArbitrageScanner     | fetch_ticker(APT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:05 ERROR    | ArbitrageScanner     | fetch_ticker(APT/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:06 ERROR    | ArbitrageScanner     | fetch_ticker(ARB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:06 ERROR    | ArbitrageScanner     | fetch_ticker(ARB/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:07 ERROR    | ArbitrageScanner     | fetch_ticker(OP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:07 ERROR    | ArbitrageScanner     | fetch_ticker(OP/USDT) failed: 'latin-1' codec can't encode characters in position 0-2: ordinal not in range(256)
+2026-07-30 13:33:08 INFO     | ArbitrageScanner     | ⏹️  Shutdown signal received.
+2026-07-30 13:33:08 INFO     | ArbitrageScanner     | Stopped. Scans: 2, Opportunities: 0
+2026-07-30 13:33:13 INFO     | ArbitrageScanner     | Exchange client: BINANCE (LIVE)
+2026-07-30 13:33:14 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:33:14 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:33:14 INFO     | ArbitrageScanner     | Exchange client: BYBIT (LIVE)
+2026-07-30 13:33:15 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:33:15 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:33:15 INFO     | ArbitrageScanner     | Exchange client: OKX (LIVE)
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     |    Pairs: 50
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:33:16 INFO     | ArbitrageScanner     | Scan #1 | Pairs: 50 | Found: 0
+2026-07-30 13:36:22 INFO     | ArbitrageScanner     | ⏹️  Shutdown signal received.
+2026-07-30 13:36:22 INFO     | ArbitrageScanner     | Stopped. Scans: 3, Opportunities: 0
+2026-07-30 13:48:54 INFO     | ArbitrageScanner     | Exchange client: BINANCE (LIVE)
+2026-07-30 13:48:55 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:48:55 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:48:55 INFO     | ArbitrageScanner     | Exchange client: BYBIT (LIVE)
+2026-07-30 13:48:56 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:48:56 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:48:56 INFO     | ArbitrageScanner     | Exchange client: OKX (LIVE)
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     |    Pairs: 50
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     |    Min spread: 0.40%
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:48:57 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:50:25 INFO     | ArbitrageScanner     | ⏹️  Shutdown signal received.
+2026-07-30 13:50:25 INFO     | ArbitrageScanner     | Stopped. Scans: 1, Opportunities: 0
+2026-07-30 13:50:59 INFO     | ArbitrageScanner     | Exchange client: BINANCE (LIVE)
+2026-07-30 13:51:00 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 13:51:00 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 13:51:00 INFO     | ArbitrageScanner     | Exchange client: BYBIT (LIVE)
+2026-07-30 13:51:01 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 13:51:01 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 13:51:01 INFO     | ArbitrageScanner     | Exchange client: OKX (LIVE)
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     |    Pairs: 50
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     |    Min spread: 0.05%
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 13:51:03 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 13:51:19 ERROR    | ArbitrageScanner     | Timeout on /api/v3/ticker/24hr
+2026-07-30 13:51:57 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 13:53:10 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 13:54:22 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 13:55:34 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 13:56:48 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 13:58:00 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 13:59:11 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-30 14:00:24 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 14:01:37 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 14:02:50 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:04:02 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 14:05:15 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:06:28 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 14:07:42 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 14:08:56 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 14:10:09 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 14:11:21 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 14:12:34 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 14:13:47 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:15:00 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 14:16:14 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 14:17:26 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:18:52 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 14:20:15 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 14:21:41 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 14:22:55 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 14:24:12 INFO     | ArbitrageScanner     | 🎯 Found 33 opportunities!
+2026-07-30 14:25:29 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 14:26:45 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 14:28:04 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 14:29:21 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:30:44 INFO     | ArbitrageScanner     | 🎯 Found 19 opportunities!
+2026-07-30 14:32:00 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:33:15 INFO     | ArbitrageScanner     | 🎯 Found 18 opportunities!
+2026-07-30 14:34:31 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 14:35:47 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 14:36:59 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:38:13 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 14:39:26 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:40:39 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:41:51 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 14:43:03 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:44:16 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 14:45:28 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 14:46:40 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:47:52 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 14:49:03 INFO     | ArbitrageScanner     | 🎯 Found 19 opportunities!
+2026-07-30 14:50:15 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 14:51:17 INFO     | ArbitrageScanner     | ⏹️  Shutdown signal received.
+2026-07-30 14:51:17 INFO     | ArbitrageScanner     | Stopped. Scans: 49, Opportunities: 1177
+2026-07-30 18:50:13 INFO     | ArbitrageScanner     | Exchange client: BINANCE (LIVE)
+2026-07-30 18:50:14 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 18:50:14 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 18:50:14 INFO     | ArbitrageScanner     | Exchange client: BYBIT (LIVE)
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | Exchange client: OKX (LIVE)
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     |    Pairs: 50
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     |    Min spread: 0.05%
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     |    Scan interval: 30s
+2026-07-30 18:50:15 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 18:51:00 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-30 22:07:23 INFO     | ArbitrageScanner     | Exchange client: BINANCE (LIVE)
+2026-07-30 22:07:24 INFO     | ArbitrageScanner     | ✅ Connection to BINANCE OK
+2026-07-30 22:07:24 INFO     | ArbitrageScanner     | ✅ Connected to BINANCE
+2026-07-30 22:07:24 INFO     | ArbitrageScanner     | Exchange client: BYBIT (LIVE)
+2026-07-30 22:07:25 INFO     | ArbitrageScanner     | ✅ Connection to BYBIT OK
+2026-07-30 22:07:25 INFO     | ArbitrageScanner     | ✅ Connected to BYBIT
+2026-07-30 22:07:25 INFO     | ArbitrageScanner     | Exchange client: OKX (LIVE)
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     | ✅ Connection to OKX OK
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     | ✅ Connected to OKX
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     | 🚀 Arbitrage Scanner STARTED
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     |    Exchanges: BINANCE, BYBIT, OKX
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     |    Pairs: 49
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     |    Min spread: 0.05%
+2026-07-30 22:07:27 INFO     | ArbitrageScanner     | =======================================================
+2026-07-30 22:08:21 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 22:09:40 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 22:11:00 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:12:21 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:13:37 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-30 22:14:55 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 22:16:15 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:17:32 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:18:50 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 22:20:07 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:21:32 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 22:22:50 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 22:24:12 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 22:25:31 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-30 22:26:50 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:28:08 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:29:23 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:30:38 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:31:55 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:33:12 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:33:45 ERROR    | ArbitrageScanner     | Request failed /api/v3/ticker/24hr: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ticker/24hr?symbol=ETHUSDT (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2026-07-30 22:34:24 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:35:33 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:36:42 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:37:51 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 22:39:00 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:40:09 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 22:41:18 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:42:26 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:43:35 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:44:44 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 22:45:52 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 22:47:01 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 22:48:09 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:49:17 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:50:26 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 22:51:35 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-30 22:52:44 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 22:53:52 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 22:55:00 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 22:56:10 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 22:57:18 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:58:26 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 22:59:33 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:00:42 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:01:50 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 23:02:59 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 23:04:07 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:05:15 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:06:24 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:07:33 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:08:41 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 23:09:49 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 23:10:58 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 23:12:06 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 23:13:14 INFO     | ArbitrageScanner     | 🎯 Found 19 opportunities!
+2026-07-30 23:14:24 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:15:32 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 23:16:40 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 23:17:48 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 23:18:57 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:20:07 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-30 23:21:16 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 23:22:24 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 23:23:34 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:24:41 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 23:25:50 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:26:57 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 23:28:05 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:29:22 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-30 23:30:30 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:31:38 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 23:32:45 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-30 23:33:54 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 23:35:02 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 23:36:10 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-30 23:37:24 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 23:38:32 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-30 23:39:40 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:40:47 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-30 23:41:56 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:43:04 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 23:44:13 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 23:45:21 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-30 23:46:29 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 23:47:37 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-30 23:48:45 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 23:49:54 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-30 23:51:03 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:52:12 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-30 23:53:20 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-30 23:54:29 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:55:37 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-30 23:56:44 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-30 23:57:53 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-30 23:59:02 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:00:13 INFO     | ArbitrageScanner     | 🎯 Found 18 opportunities!
+2026-07-31 00:01:23 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 00:02:33 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:03:43 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:04:50 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:05:58 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:07:06 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-31 00:08:15 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:09:23 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:10:31 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:11:40 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 00:12:48 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:13:58 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:15:14 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:16:25 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:17:36 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:18:46 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 00:19:57 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 00:21:07 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:22:17 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:23:29 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:24:41 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:26:06 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 00:27:17 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:28:30 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:29:41 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:30:52 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:32:02 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:33:13 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:34:23 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 00:35:35 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:36:47 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:38:00 INFO     | ArbitrageScanner     | 🎯 Found 31 opportunities!
+2026-07-31 00:39:13 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 00:40:25 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:41:36 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:42:48 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 00:44:00 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:45:11 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:46:22 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 00:47:31 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:48:41 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:49:53 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 00:51:35 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 00:52:50 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 00:54:01 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:55:12 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 00:56:23 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:57:34 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 00:58:44 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 00:59:54 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:01:08 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 01:02:18 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 01:03:29 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:04:40 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:05:50 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 01:06:59 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:08:10 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 01:09:21 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:10:32 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:11:41 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:12:50 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 01:14:00 INFO     | ArbitrageScanner     | 🎯 Found 31 opportunities!
+2026-07-31 01:15:09 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:16:19 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:17:29 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:18:39 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:19:50 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 01:21:00 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:22:09 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 01:23:19 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 01:24:29 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 01:25:40 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:26:50 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:28:03 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:29:18 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 01:30:31 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:31:45 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:32:58 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 01:34:14 INFO     | ArbitrageScanner     | 🎯 Found 19 opportunities!
+2026-07-31 01:35:27 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 01:36:39 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:37:56 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 01:39:09 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 01:40:29 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 01:41:44 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 01:42:54 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 01:44:09 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 01:45:26 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 12:57:02 ERROR    | ArbitrageScanner     | Request failed /api/v3/ticker/24hr: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ticker/24hr?symbol=BTCUSDT (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2026-07-31 12:57:04 ERROR    | ArbitrageScanner     | Request failed /v5/market/tickers: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?category=spot&symbol=BTCUSDT (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=10809): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
+2026-07-31 12:57:54 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 12:59:04 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:00:59 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 13:02:13 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-31 13:03:21 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 13:04:29 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 13:05:37 INFO     | ArbitrageScanner     | 🎯 Found 17 opportunities!
+2026-07-31 13:06:44 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 13:07:59 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 13:09:10 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:10:22 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:11:34 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:12:45 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 13:13:55 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 13:15:07 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:16:19 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:17:32 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 13:18:45 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:19:57 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:21:07 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:22:21 INFO     | ArbitrageScanner     | 🎯 Found 30 opportunities!
+2026-07-31 13:23:33 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:24:44 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-31 13:25:56 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:27:06 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:28:19 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:29:31 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:30:45 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:31:59 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-31 13:33:10 INFO     | ArbitrageScanner     | 🎯 Found 22 opportunities!
+2026-07-31 13:34:22 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:35:33 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:36:45 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 13:37:57 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 13:39:10 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 13:40:21 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 13:41:33 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:42:46 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 13:43:58 INFO     | ArbitrageScanner     | 🎯 Found 19 opportunities!
+2026-07-31 13:45:10 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!
+2026-07-31 13:46:20 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:47:32 INFO     | ArbitrageScanner     | 🎯 Found 27 opportunities!
+2026-07-31 13:48:45 INFO     | ArbitrageScanner     | 🎯 Found 28 opportunities!
+2026-07-31 13:49:56 INFO     | ArbitrageScanner     | 🎯 Found 29 opportunities!
+2026-07-31 13:51:09 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:52:23 INFO     | ArbitrageScanner     | 🎯 Found 20 opportunities!
+2026-07-31 13:53:35 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:54:47 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:56:01 INFO     | ArbitrageScanner     | 🎯 Found 24 opportunities!
+2026-07-31 13:57:15 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 13:58:28 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 13:59:39 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 14:00:50 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 14:02:01 INFO     | ArbitrageScanner     | 🎯 Found 25 opportunities!
+2026-07-31 14:03:18 INFO     | ArbitrageScanner     | 🎯 Found 21 opportunities!
+2026-07-31 14:04:31 INFO     | ArbitrageScanner     | 🎯 Found 23 opportunities!
+2026-07-31 14:05:41 INFO     | ArbitrageScanner     | 🎯 Found 26 opportunities!

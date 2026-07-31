@@ -1,0 +1,27 @@
+2026-07-31 13:23:50 INFO     | GridML               | Exchange client: BINANCE (testnet)
+2026-07-31 13:23:50 INFO     | GridML               | 🚀 Grid ML Bot STARTED | ETH/USDT | 10 levels
+2026-07-31 13:23:50 INFO     | GridML               | 🔄 Recalculating grid with ML...
+2026-07-31 13:23:50 INFO     | GridML               | ML Prediction: Low=$1,850.37 High=$1,912.74 (Current: $1,886.53)
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Cancel all orders for ETH/USDT
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit BUY 0.026939 ETH/USDT @ $1,856.04
+2026-07-31 13:23:50 INFO     | GridML               | 📝 BUY order: 0.026939 @ $1,856.04
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit BUY 0.026857 ETH/USDT @ $1,861.71
+2026-07-31 13:23:50 INFO     | GridML               | 📝 BUY order: 0.026857 @ $1,861.71
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit BUY 0.026775 ETH/USDT @ $1,867.38
+2026-07-31 13:23:50 INFO     | GridML               | 📝 BUY order: 0.026775 @ $1,867.38
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit BUY 0.026694 ETH/USDT @ $1,873.05
+2026-07-31 13:23:50 INFO     | GridML               | 📝 BUY order: 0.026694 @ $1,873.05
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit BUY 0.026614 ETH/USDT @ $1,878.72
+2026-07-31 13:23:50 INFO     | GridML               | 📝 BUY order: 0.026614 @ $1,878.72
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit SELL 0.026534 ETH/USDT @ $1,884.39
+2026-07-31 13:23:50 INFO     | GridML               | 📝 SELL order: 0.026534 @ $1,884.39
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit SELL 0.026454 ETH/USDT @ $1,890.06
+2026-07-31 13:23:50 INFO     | GridML               | 📝 SELL order: 0.026454 @ $1,890.06
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit SELL 0.026375 ETH/USDT @ $1,895.73
+2026-07-31 13:23:50 INFO     | GridML               | 📝 SELL order: 0.026375 @ $1,895.73
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit SELL 0.026296 ETH/USDT @ $1,901.40
+2026-07-31 13:23:50 INFO     | GridML               | 📝 SELL order: 0.026296 @ $1,901.40
+2026-07-31 13:23:50 INFO     | GridML               | 📝 PAPER TRADE: Limit SELL 0.026218 ETH/USDT @ $1,907.07
+2026-07-31 13:23:50 INFO     | GridML               | 📝 SELL order: 0.026218 @ $1,907.07
+2026-07-31 13:23:50 INFO     | GridML               | Placed 10/10 grid orders
+2026-07-31 13:23:50 INFO     | GridML               | 📊 Grid | Range: $1,850.37 — $1,912.74 | Levels: 10 | Trades: 0
