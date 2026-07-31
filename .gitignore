@@ -1,14 +1,19 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 venv/
+.env
 
-# Конфиденциальные данные
+# Конфиденциально
 config.yaml
 
 # Данные
 data/
 *.log
+
+# IDE
+.vscode/
 
 # Видео
 video_guide/
