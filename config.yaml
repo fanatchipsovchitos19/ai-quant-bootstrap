@@ -35,7 +35,7 @@ api_keys:
 
   # RouterAI API. Получить: https://routerai.ru
   routerai:
-    api_key: "sk-6VPzFy-ey7oxnlFRf7r2jbTyZ-RiS9lj"
+    api_key: "Ващ ключ"
     url: "https://routerai.ru/api/v1"
     model_complex: "deepseek/deepseek-chat"  # для анализа тональности, новостей
     model_fast: "openai/gpt-4o-mini"         # для быстрых проверок
@@ -49,7 +49,7 @@ api_keys:
   # Twitter API v2. Получить: https://developer.twitter.com/en/portal/dashboard
   # Бесплатный тир: 1500 твитов/мес (хватит для мониторинга 50 аккаунтов)
   twitter:
-    bearer_token: "AAAAAAAAAAAAAAAAAAAAAKYP%2BwEAAAAAjYgs2qGePKV4KRMcZDFzWl7N5zg%3DCLUoDl7NyjQI4hPFDpkv8idZ19hyqWxypUYPmIQY46NsQvEXtZ"
+    bearer_token: "Ваш ключ"
 
   # Telegram Bot. Создать через @BotFather в Telegram
   telegram:
